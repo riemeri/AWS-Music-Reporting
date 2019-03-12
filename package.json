@@ -1,0 +1,15 @@
+{
+  "name": "reporting",
+  "version": "1.0.0",
+  "description": "Records messages sent from the AWS-Music-Server",
+  "main": "recorder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian Riemer",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.419.0",
+    "sqs-consumer": "^5.0.1"
+  }
+}
